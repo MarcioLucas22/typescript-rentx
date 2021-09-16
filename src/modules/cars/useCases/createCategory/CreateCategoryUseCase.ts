@@ -1,8 +1,8 @@
 import { ICategoriesRepository } from '../../repositories/ICategoriesRepository'
 
 interface IRequest {
-  name: String
-  description: String
+  name: string
+  description: string
 }
 
 class CreateCategoryUseCase {

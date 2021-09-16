@@ -5,16 +5,16 @@ import { Column, CreateDateColumn, Entity, PrimaryColumn } from 'typeorm'
 class Category {
   // Ponto de interrogação significa que o parâmetro não é obrigatório de ser usado
   @PrimaryColumn()
-  id?: String
+  id?: string
 
   @Column()
-  name: String
+  name: string
 
   @Column()
-  description: String
+  description: string
 
   @CreateDateColumn()
-  createdAt: Date
+  created_at: Date
 
   constructor() {
     if(!this.id) {
